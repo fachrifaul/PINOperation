@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
 EOS
   s.prefix_header_contents = pch_PIN
   s.source_files = 'Source/**/*.{h,m,mm}'
+  s.public_header_files = 'Source/**/*.h'
 end
